@@ -1,4 +1,5 @@
 //This starts the slideshow and initializes the values passed into the slideshow constructor function.
+//You can enter two default values in the curly brackets example: {autoplay:false,startimage:5}
 var Slide = new Slideshow("Anson_Reyes",false,false,false,{/*User can change two default values here*/});
 
 document.querySelector("#play").addEventListener("click",Slide.playPause);

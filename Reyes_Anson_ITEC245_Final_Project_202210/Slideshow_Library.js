@@ -107,12 +107,14 @@
                 if(Slide.isbig == false)
                 {
                 document.querySelector("#slideshow-box").style.width = "400px";
+                document.querySelector("#box").style.width = "400px";
                 document.querySelector("#slideshow-box").style.height = "200px";
                 Slide.isbig = true;
                 }
                 else if(Slide.isbig == true)
                 {
                 document.querySelector("#slideshow-box").style.width = "600px";
+                document.querySelector("#box").style.width = "600px";
                 document.querySelector("#slideshow-box").style.height = "400px";
                 Slide.isbig = false;
                 }
@@ -163,7 +165,7 @@
                 document.body.style.backgroundColor = "black";
                 document.querySelector("#button-container").style.backgroundColor = "white";
                 document.querySelector("#instructions").style.color = "white";
-                document.querySelector("#slideshow-box").style.boxShadow = "10px 5px 5px white";
+                document.querySelector("#box").style.boxShadow = "10px 5px 5px white";
                 Slide.isswitched = true;
                 }
                 else if(Slide.isswitched == true)
@@ -171,7 +173,7 @@
                 document.body.style.backgroundColor = "white";
                 document.querySelector("#button-container").style.backgroundColor = "black";
                 document.querySelector("#instructions").style.color = "black";
-                document.querySelector("#slideshow-box").style.boxShadow = "10px 5px 5px black";
+                document.querySelector("#box").style.boxShadow = "10px 5px 5px black";
                 Slide.isswitched = false;
                 }
             },

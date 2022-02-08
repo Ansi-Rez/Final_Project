@@ -14,13 +14,19 @@ header{
     padding-top:10px;
     padding-bottom:10px;
 }
+#box{
+    width:600px;
+    margin:auto;
+    padding:10px;
+    background-color:cyan;
+    border:2px solid black;
+    box-shadow: 10px 5px 5px black;
+}
 #slideshow-box{
     height:400px;
     width:600px;
     background-color:cyan;
-    margin:auto;
     background-size:100% 100%;
-    box-shadow: 10px 5px 5px black;
 }
 #instructions{
     text-align:center;
