@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:whitesmoke;
+}
+button{
+    margin-right:3px;
+}
+header{
+    width:100%;
+    background-color:cyan;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#slideshow-box{
+    height:400px;
+    width:600px;
+    background-color:cyan;
+    margin:auto;
+    background-size:100% 100%;
+    box-shadow: 10px 5px 5px black;
+}
+#instructions{
+    text-align:center;
+}
